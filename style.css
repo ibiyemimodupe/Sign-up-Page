@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body {
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to top left, #4428b4, #6f96d5);
+}
+.f1-S {
+    position: relative;
+    width: 40%;
+    height: 80%;
+    background-color: rgba(10, 1, 1, 0.71);
+    margin: auto;
+}
+.id-cont{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+form{
+    margin-bottom: 3rem;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.logo{
+    position: absolute;
+    margin-left: 3rem;
+    width: 20%;
+    padding-top: 2rem;
+}
+.head-cont{
+    width: 10%;
+    align-items: center;
+    background-color: #4428b4;
+}
+.nav-logo{
+    font-size: clamp(2rem, 1.5vw, 3.5rem);
+    line-height: 12px;
+}
+.nav-logo>span{
+    font-size: clamp(0.8rem, 0.5vw, 1rem);
+    color:#1951ac;
+    line-height: 2rem;
+}
+.id-cont h1{
+    text-align: center;
+    padding: 2rem 0;
+}
+.sign{
+    text-decoration: none;
+    background-color: white;
+    color: #1951ac;
+    padding: 12px 36px;
+    border-radius: 32px;
+}
+.sign-cont{
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+}
+input::placeholder{
+    color: #1951ac;
+    font-weight: 400;
+}
+.sign:hover {
+    background-color: #a1bae2;
+}
+.id-cont p{
+    font-size: small;
+    font-weight: 100;
+    padding-top: 1.2rem;
+    text-align: center;
+}
