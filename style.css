@@ -4,13 +4,13 @@
     color: white;
 }
 body {
-    height: 110vh;
+    height: 100vh;
     display: flex;
     background: linear-gradient(to top left, #4428b4, #6f96d5);
     background-position: contain;
 }
 .f1-S {
-    position: relative;
+    /* position: relative; */
     width: 40%;
     height: 80%;
     background-color: rgba(10, 1, 1, 0.71);
@@ -36,7 +36,7 @@ input{
     position: absolute;
     margin-left: 3rem;
     width: 20%;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .head-cont{
     width: 10%;
@@ -58,7 +58,7 @@ input{
 }
 .form input{
     color: #000000;
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 .sign{
     text-decoration: none;
@@ -66,7 +66,7 @@ input{
     color: #1951ac;
     padding: 12px 36px;
     border-radius: 32px;
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 .sign:active{
     background-color: #1951ac;
