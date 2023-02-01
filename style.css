@@ -4,9 +4,10 @@
     color: white;
 }
 body {
-    height: 100vh;
+    height: 110vh;
     display: flex;
     background: linear-gradient(to top left, #4428b4, #6f96d5);
+    background-position: contain;
 }
 .f1-S {
     position: relative;
@@ -57,7 +58,7 @@ input{
 }
 .form input{
     color: #000000;
-    font-size: 28px;
+    font-size: 24px;
 }
 .sign{
     text-decoration: none;
@@ -67,11 +68,16 @@ input{
     border-radius: 32px;
     font-size: 24px;
 }
+.sign:active{
+    background-color: #1951ac;
+    cursor: pointer;
+    transition: 0.8s;
+}
 .sign-cont{
     justify-content: center;
     width: 20%;
     margin: auto;
-    padding-top: 35px;
+    padding-top: 20px;
 }
 input::placeholder{
     color: #1951ac;

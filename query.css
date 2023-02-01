@@ -1,11 +1,11 @@
 
 /*small phone to small tablet (481px to 767px) */
-@media only screen and (max-width:767px) {
+@media (max-width:767px) {
     .f1-S {
         width: 80%;
     }
     .sign-cont{
-        width:40%;
+        width:20%;
     }
     input{
         padding: 18px 10px;
@@ -15,5 +15,8 @@
         background-color: #1951ac;
         cursor: pointer;
         transition: 0.8s;
+    }
+    .sign{
+        font-size: 16px;
     }
 }
